@@ -1,6 +1,6 @@
 {
   "name": "@PedroVasHer/servicea",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Parent dependency with simple console log",
   "main": "index.js",
   "publishConfig": {
