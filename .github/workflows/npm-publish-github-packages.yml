@@ -30,6 +30,8 @@ jobs:
 
   version:
     runs-on: ubuntu-latest
+    outputs:
+      new_tag: ${{ steps.tag_version.outputs.new_tag }}
     steps:
       - uses: actions/checkout@v4
         with:
