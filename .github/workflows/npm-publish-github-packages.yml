@@ -81,7 +81,7 @@ jobs:
 
       - name: Sync package.json version with tag
         run: |
-            TAG=${{ needs.version.outputs.tag_version.outputs.new_tag }}
+            TAG=${{ needs.version.outputs.new_tag }}
             VERSION=${TAG#v}
             npm version $VERSION --no-git-tag-version
 
