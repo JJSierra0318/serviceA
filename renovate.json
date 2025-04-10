@@ -13,7 +13,7 @@
       ],
       "automerge": false,
       "branchPrefix": "feature/",
-      "prCreation": "inmediate"
+      "prCreation": "immediate"
     }
   ],
   "dependencyDashboard": true,
