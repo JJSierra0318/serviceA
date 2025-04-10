@@ -1,0 +1,24 @@
+{
+  "name": "@PedroVasHer/servicea",
+  "version": "0.0.0-SEMANTIC-RELEASE",
+  "description": "Parent dependency with simple console log",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PedroVasHer/serviceA.git"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "@pedrovasher/serviceb": "1.0.3"
+  }
+}

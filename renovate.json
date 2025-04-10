@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "@pedrovasher/serviceb"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": false,
+      "branchPrefix": "feature/",
+      "prCreation": "inmediate"
+    }
+  ],
+  "dependencyDashboard": true,
+  "dependencyDashboardTitle": "Dependency Dashboard"
+}
