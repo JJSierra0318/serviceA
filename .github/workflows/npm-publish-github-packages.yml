@@ -76,7 +76,7 @@ jobs:
 
       - name: Set GitHub Packages Auth
         run: |
-            echo "@jjsierra:registry=https://npm.pkg.github.com/" >> ~/.npmrc
+            echo "@jjsierra0318:registry=https://npm.pkg.github.com/" >> ~/.npmrc
             echo "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
 
       - name: Sync package.json version with tag
