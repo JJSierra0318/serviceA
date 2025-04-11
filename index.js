@@ -1,5 +1,5 @@
 import express from 'express';
-import serviceB from 'serviceB';
+import serviceB from '@jjsierra0318/serviceb';
 
 const app = express();
 

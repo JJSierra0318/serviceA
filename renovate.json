@@ -5,7 +5,7 @@
   "packageRules": [
     {
       "matchPackageNames": [
-        "@pedrovasher/serviceb"
+        "@jjsierra0318/serviceb"
       ],
       "matchUpdateTypes": [
         "minor",
@@ -18,5 +18,5 @@
   ],
   "dependencyDashboard": true,
   "dependencyDashboardTitle": "Dependency Dashboard",
-  "npmrc": "@pedrovasher:registry=https://npm.pkg.github.com/"
+  "npmrc": "@jjsierra0318:registry=https://npm.pkg.github.com/"
 }
