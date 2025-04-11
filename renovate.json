@@ -17,5 +17,6 @@
     }
   ],
   "dependencyDashboard": true,
-  "dependencyDashboardTitle": "Dependency Dashboard"
+  "dependencyDashboardTitle": "Dependency Dashboard",
+  "npmrc": "@pedrovasher:registry=https://npm.pkg.github.com/"
 }
