@@ -71,12 +71,12 @@ jobs:
 
       - name: Set Git Identity
         run: |
-          git config user.name "claudiafm97"
-          git config user.email "claudiafer.molano97@gmail.com"
+          git config user.name "jjsierra"
+          git config user.email "juanjosesierram@gmail.com"
 
       - name: Set GitHub Packages Auth
         run: |
-            echo "@pedrovasher:registry=https://npm.pkg.github.com/" >> ~/.npmrc
+            echo "@jjsierra:registry=https://npm.pkg.github.com/" >> ~/.npmrc
             echo "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
 
       - name: Sync package.json version with tag
