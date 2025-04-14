@@ -19,6 +19,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "5.0.0",
-    "@jjsierra0318/serviceb": "0.0.41"
+    "@jjsierra0318/serviceb": "0.0.42-feature-jjsierra0318-servicec-0-x.3"
   }
 }
